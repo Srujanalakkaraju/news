@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - Daily News</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <h1 class="news-name"><i class="fas fa-newspaper"></i> Daily News</h1>
+            </div>
+            <div class="date-search">
+                <div class="date">May 28, 2024</div>
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        <div class="news-scrolling">
+            <marquee>Breaking News: Major event happening right now! Stay tuned for updates.</marquee>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="world.html">World</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="tech.html">Technology</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="subscribe-section">
+            <div class="subscribe-container">
+                <h2 class="subscribe-heading">Subscribe to Daily News</h2>
+                <p class="subscribe-description">Stay updated with the latest news and insights. Subscribe now!</p>
+                <form action="#" method="POST" class="subscribe-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subscription-plan">Choose a Subscription Plan:</label>
+                        <select id="subscription-plan" name="subscription-plan" required>
+                            <option value="">Select Plan</option>
+                            <option value="basic">Basic (Free)</option>
+                            <option value="premium">Premium (rs.899/month)</option>
+                            <option value="vip">VIP (rs.1699/month)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="subscribe-button">Subscribe Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Daily News. All rights reserved.</p>
+    </footer>
+</body>
+</html>
